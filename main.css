@@ -1,0 +1,68 @@
+body {
+
+    background-color: rgb(43, 36, 27);
+}
+
+.display {
+    background-color: rgb(217, 207, 194);
+    padding: 2rem 2rem 2rem 2rem;
+    color: rgb(33, 20, 14);
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    display:flex;
+    justify-content: right;
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+.controls .numerics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+
+  .controls .numerics button {
+    width: 30vw;
+        max-width: 15rem;
+        height: 9vw;
+        max-height: 5rem;
+    background-color: rgb(217, 207, 194);
+    padding: 1rem 1rem 1rem 1rem;
+    color: rgb(33, 20, 14);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    margin-right: 2px;
+    margin-left: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(33, 20, 14);
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+
+  .controls .operators {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 2rem;
+    margin-left: 2px;
+  }
+.controls .operators button {
+        display:flex;
+        width: 30vw;
+        max-width: 15rem;
+        height: 9vw;
+        max-height: 5rem;
+        background-color: rgb(218, 168, 103);
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 0.5rem;
+        font-size: 2.5rem;
+        padding: 1rem 1rem 1rem 1rem;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        border: transparent;
+        cursor: pointer;
+}
